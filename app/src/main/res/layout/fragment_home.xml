@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="Fragment.HomeFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_barcha_fuqarolar"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:text="@string/barcha_fuqarolar"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/main"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_fuqaro_qoshish"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:text="@string/fuqaroga_passport_berish"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/main"/>
+
+</LinearLayout>

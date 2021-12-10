@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viloyat_array">
+        <item>Toshkent</item>
+        <item>Andijon</item>
+        <item>Farg\'ona</item>
+        <item>Namangan</item>
+        <item>Sirdaryo</item>
+        <item>Jizzax</item>
+        <item>Samarqand</item>
+        <item>Buxoro</item>
+        <item>Navoiy</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Xorazm</item>
+        <item>Qoraqalpog\'iston Respublikasi</item>
+    </string-array>
+    <string-array name="jinsi_array">
+        <item>Erkak</item>
+        <item>Ayol</item>
+    </string-array>
+</resources>

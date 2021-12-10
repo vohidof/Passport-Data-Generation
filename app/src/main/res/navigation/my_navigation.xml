@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/barchaFuqarolarFragment"
+        android:name="Fragment.BarchaFuqarolarFragment"
+        android:label="fragment_barcha_fuqarolar"
+        tools:layout="@layout/fragment_barcha_fuqarolar" >
+        <action
+            android:id="@+id/action_barchaFuqarolarFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fuqaroQoshishFragment"
+        android:name="Fragment.FuqaroQoshishFragment"
+        android:label="fragment_fuqaro_qoshish"
+        tools:layout="@layout/fragment_fuqaro_qoshish" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="Fragment.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
